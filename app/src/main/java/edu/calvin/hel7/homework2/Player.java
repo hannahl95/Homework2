@@ -1,0 +1,24 @@
+package edu.calvin.hel7.homework2;
+
+/**
+ * Created by hannahludema on 10/20/16.
+ */
+public class Player {
+
+    private int id;
+    private String email;
+    private String name;
+
+    public Player(int id, String email, String name) {
+        this.id = id;
+        this.email = email;
+        this.name = name;
+    }
+    public String getId() {
+        return String.valueOf(id);
+    }
+    public String getEmail() { return email; }
+    public String getName() {
+        return name;
+    }
+}
